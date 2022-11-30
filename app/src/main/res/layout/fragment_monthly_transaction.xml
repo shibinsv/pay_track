@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_30dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_flatHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_50dp"
+        android:drawableStart="@drawable/ic_flat"
+        android:text="@string/select_flat"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_flatSelection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10dp"
+        android:background="@drawable/bg_text_view_purple"
+        android:padding="@dimen/_20dp"
+        android:text="@string/select"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/_18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_flatHeader" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_paymentMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30dp"
+        android:drawableStart="@drawable/ic_payment"
+        android:text="@string/select_payment_mode"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_flatSelection" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinner_paymentMode"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60dp"
+        android:layout_marginTop="@dimen/_5dp"
+        android:background="@drawable/bg_text_view_purple"
+        android:paddingStart="@dimen/_8dp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_paymentMode" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_pay"
+        style="@style/ButtonDisabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30dp"
+        android:drawableStart="@drawable/ic_done_red"
+        android:text="@string/pay"
+        app:layout_constraintEnd_toEndOf="@id/spinner_paymentMode"
+        app:layout_constraintStart_toStartOf="@id/spinner_paymentMode"
+        app:layout_constraintTop_toBottomOf="@id/spinner_paymentMode" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

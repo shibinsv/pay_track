@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Pay Track</string>
+    <string name="no_records_found">No records found</string>
+    <string name="Payment_stats">Payment stats</string>
+    <string name="user_details">User details</string>
+    <string name="add_name">Add name</string>
+    <string name="delete_all">Delete all</string>
+    <string name="flat_number">Flat number</string>
+    <string name="owner_name">Owner name</string>
+    <string name="primary_contact_number">Primary contact number</string>
+    <string name="additional_number">Additional number</string>
+    <string name="additional_number_2">Additional number</string>
+    <string name="save_btn">Save</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="revoke_payment">Revoke payment</string>
+    <string name="view_more">View more</string>
+    <string name="select_flat">Select Flat</string>
+    <string name="select">Select</string>
+    <string name="select_payment_mode">Select payment mode</string>
+    <string name="pay">Pay</string>
+    <string name="unpaid_users">Unpaid users</string>
+    <string name="paid_users">Paid users</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="view_details">View details</string>
+    <string name="add_user">Add user</string>
+    <string name="make_payment">Make payment</string>
+    <string name="hint_amount">Amount paid</string>
+    <string name="amount">Amount</string>
+    <string name="back">Back</string>
+    <string name="mobile_no">Mobile no.</string>
+    <string name="call">Call</string>
+    <string name="connect_whatsapp">Connect via Whatsapp</string>
+    <string name="clear_all_transactions">Clear all transactions</string>
+</resources>
